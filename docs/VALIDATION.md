@@ -18,7 +18,7 @@ Verified locally and against the connected Supabase project on 2026-11-03. **Thi
 | Hosted public signup | **Requires owner action** | Live Auth settings returned `disable_signup=false`; must disable before acceptance |
 | Real Storage upload/download/signed URL expiry | **Not tested** | SQL policies tested against metadata fixtures; live bucket configuration verified, actual file transfer still untested |
 | Browser/mobile/Arabic PDF/camera accessibility | **Not tested** | Managed environment did not expose browser QA tool; responsive/RTL code implemented but not visually certified |
-| GitHub Pages/live HTTPS deployment | **Not tested** | Frontend deployment configuration supplied; successful deployment still pending |
+| GitHub Pages/live HTTPS deployment | Passed | Deployment of `af80d4b627c7ac7acc103f850e855f6091c280db` succeeded; HTTPS returned 200 with built asset paths (not raw TSX). Browser/mobile acceptance remains pending. |
 
 ## Database scenarios exercised
 
@@ -41,3 +41,5 @@ PGlite fixtures do not execute Supabase Auth/Storage services or the gateway ove
 ## Live security advisor review
 
 Supabase reported an informational [RLS-without-policy notice](https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy) for `rate_limits`: intentional, since only the trusted service role may access it. It also flagged [authenticated SECURITY DEFINER execution](https://supabase.com/docs/guides/database/database-linter?lint=0029_authenticated_security_definer_function_executable) for the 19 protected RPC/helper functions: execution is intentional, each write RPC checks active identity/role/scope and uses an empty search path; direct table writes remain denied. These notices are documented, not claimed to be absent.
+
+Verified live frontend: https://saidbait07-cmyk.github.io/Weekly-Vehicle-Checklist/ . [Connected-project CI](https://github.com/saidbait07-cmyk/Weekly-Vehicle-Checklist/actions/runs/41733883889) and [Pages deployment](https://github.com/saidbait07-cmyk/Weekly-Vehicle-Checklist/actions/runs/41733883845) both completed successfully. The site is available for setup/review; no administrator account has been provisioned and public signup still needs disabling.
