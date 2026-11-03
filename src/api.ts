@@ -2,8 +2,9 @@ import { createClient } from "@supabase/supabase-js";
 export const authLinkType = new URLSearchParams(location.hash.slice(1)).get(
   "type",
 );
-const url = import.meta.env.VITE_SUPABASE_URL;
-const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
+import deployment from "./deployment.public.json";
+const url = import.meta.env.VITE_SUPABASE_URL || deployment.url;
+const key = import.meta.env.VITE_SUPABASE_ANON_KEY || deployment.publishableKey;
 export const configured = Boolean(
   url &&
     /^https:\/\//.test(url) &&

@@ -10,7 +10,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: ${{ vars.VITE_SUPABASE_URL != '' && vars.VITE_SUPABASE_ANON_KEY != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -20,6 +20,12 @@ The owner authorized removal of the three previous repositories' working files, 
 
 See [database design](docs/DATABASE.md), [security boundaries](docs/SECURITY.md), [validation results](docs/VALIDATION.md), [deployment checklist](docs/DEPLOYMENT.md) and [Arabic instructions](README_AR.md).
 
+## Connected deployment
+
+The current checkout is linked to project `sojdtprszwucmudhmdid`. Its migrations and private bucket have been applied and the `gateway` Edge Function is active. `src/deployment.public.json` contains only the project URL and a **publishable** key, both intentionally public. VITE environment variables override these public defaults. `.env.example` remains placeholders only. The gateway's `deployment-config.ts` supplies public frontend routing defaults; APP_ORIGIN/APP_URL override them.
+
+**Outstanding setup:** hosted Auth currently permits public signup; the project owner must disable “Allow new users to sign up”, configure the exact frontend Site URL/redirect and SMTP, and provision a real administrator. No accounts have been created. Until those steps and live acceptance tests pass, do not use this as an operational system.
+
 ## Local installation
 
 Use Node.js 22 or 24 and npm.
@@ -32,7 +38,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Missing configuration displays an explicit setup message and disables authentication; it does not enter a demo dashboard. Do not commit `.env`.
+Missing or placeholder configuration displays an explicit setup message and disables authentication; it does not enter a demo dashboard. Do not commit `.env`.
 
 ```sh
 npm test
@@ -87,11 +93,11 @@ The CLI refuses when an administrator already exists, generates a unique employe
 ## GitHub Pages deployment
 
 1. In repository Settings → Pages, choose **GitHub Actions** as the source.
-2. Add repository **variables** (these are intentionally public frontend values):
+2. Optionally override the committed public deployment defaults with repository **variables**:
    - `VITE_SUPABASE_URL`: your project HTTPS URL
    - `VITE_SUPABASE_ANON_KEY`: public publishable/anon key
 3. Push reviewed source to `main` or dispatch the Pages workflow. It runs tests/builds and deploys `dist/` using GitHub OIDC. No service-role key is needed in GitHub.
-4. The workflow sets `VITE_BASE_PATH=/<repository-name>/`. The app uses a query URL (`?vehicle=UUID`) instead of server routes so direct QR links work on Pages. For a custom domain/root site, adjust the workflow base path to `/` and update Supabase origins and redirects.
+4. The workflow sets `VITE_BASE_PATH=/<repository-name>/`. The current public project defaults allow a build without repository variables; no private key is stored in source. The app uses a query URL (`?vehicle=UUID`) instead of server routes so direct QR links work on Pages. For a custom domain/root site, adjust the workflow base path to `/` and update Supabase origins and redirects.
 5. Use the URL returned by the successful Pages deployment. Do not assume the expected URL is already live. Complete [deployment verification](docs/DEPLOYMENT.md).
 
 Supabase database migrations and Edge Functions are intentionally deployed by a trusted operator, separately from public frontend builds. The CI workflow type-checks the Edge Function, tests SQL in PostgreSQL, tests validation/export behavior, audits dependencies, and builds the frontend. It cannot run real employee authentication without a configured staging project.

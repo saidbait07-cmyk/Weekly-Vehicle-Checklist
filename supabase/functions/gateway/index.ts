@@ -1,9 +1,10 @@
 import { createClient } from "npm:@supabase/supabase-js@2.110.0";
+import { deployment } from "./deployment-config.ts";
 const url = Deno.env.get("SUPABASE_URL")!;
 const anon = Deno.env.get("SUPABASE_ANON_KEY")!;
 const service = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
-const origin = Deno.env.get("APP_ORIGIN");
-const appUrl = Deno.env.get("APP_URL");
+const origin = Deno.env.get("APP_ORIGIN") || deployment.origin;
+const appUrl = Deno.env.get("APP_URL") || deployment.appUrl;
 const admin = createClient(url, service, {
   auth: { persistSession: false, autoRefreshToken: false },
 });
@@ -127,7 +128,7 @@ Deno.serve(async (req) => {
     const {
       data: { user },
       error,
-    } = await scoped.auth.getUser();
+    } = await scoped.auth.getUser(header.slice(7));
     if (error || !user) return response({ error: "unauthorized" }, 401);
     const actor = check(
       await scoped
