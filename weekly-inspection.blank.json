@@ -1,0 +1,1412 @@
+{
+  "template_version": "1.0.0",
+  "vehicle_number": null,
+  "vehicle_type": null,
+  "starting_km": null,
+  "closing_km": null,
+  "week_start": null,
+  "timezone": "Asia/Muscat",
+  "days": [
+    {
+      "day": "sunday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "monday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "tuesday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "wednesday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "thursday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "friday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    },
+    {
+      "day": "saturday",
+      "date": null,
+      "state": "draft",
+      "checks": [
+        {
+          "item_key": "lights_indicators",
+          "source_row": 1,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mirrors",
+          "source_row": 2,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "blind_spot_mirror",
+          "source_row": 3,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "horn",
+          "source_row": 4,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fuel",
+          "source_row": 5,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "seat_belt",
+          "source_row": 6,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "communication_radio",
+          "source_row": 7,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "air_conditioning",
+          "source_row": 8,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "body_damage",
+          "source_row": 9,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "tyres_nuts_bolts",
+          "source_row": 10,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "load_restraint",
+          "source_row": 11,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "battery",
+          "source_row": 12,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "oil_level",
+          "source_row": 13,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "water_level",
+          "source_row": 14,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "steering",
+          "source_row": 15,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "wipers_windscreen",
+          "source_row": 16,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "brakes",
+          "source_row": 17,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "first_aid_box",
+          "source_row": 18,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "fire_extinguishers",
+          "source_row": 19,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "jack_tools_triangle",
+          "source_row": 20,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "vehicle_registration",
+          "source_row": 21,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ladder_condition",
+          "source_row": 22,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ivms",
+          "source_row": 23,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "housekeeping",
+          "source_row": 24,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "walkaround_360",
+          "source_row": 25,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "ras_sticker_opal",
+          "source_row": 26,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        },
+        {
+          "item_key": "mandatory_training_cards",
+          "source_row": 27,
+          "result": null,
+          "note": "",
+          "photo_refs": []
+        }
+      ],
+      "driver_name": null,
+      "driver_signature_ref": null,
+      "driver_rop_expiry": null,
+      "supervisor_signature_ref": null
+    }
+  ],
+  "defects": []
+}

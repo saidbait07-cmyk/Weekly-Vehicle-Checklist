@@ -1,0 +1,33 @@
+﻿source_row,key,label_en,label_ar,kind
+1,lights_indicators,Light & Indicator,الأضواء والإشارات,check
+2,mirrors,Mirrors,المرايا,check
+3,blind_spot_mirror,Blind spot mirror,مرآة النقطة العمياء,check
+4,horn,Horn,البوق,check
+5,fuel,Fuel,الوقود,check
+6,seat_belt,Seat Belt,حزام الأمان,check
+7,communication_radio,Communication Radio / Tape,جهاز الاتصال اللاسلكي,check
+8,air_conditioning,A/C In Vehicle,مكيف الهواء,check
+9,body_damage,Body Damage,أضرار الهيكل,check
+10,tyres_nuts_bolts,"Tyres, nut & bolts",الإطارات والصواميل والبراغي,check
+11,load_restraint,Load Restraint,تثبيت الحمولة,check
+12,battery,Battery,البطارية,check
+13,oil_level,Oil Level,مستوى الزيت,check
+14,water_level,Water Level,مستوى الماء,check
+15,steering,Steering,المقود,check
+16,wipers_windscreen,Wipers & Wind Screen,المساحات والزجاج الأمامي,check
+17,brakes,Brakes,الفرامل,check
+18,first_aid_box,First Aid Box,صندوق الإسعافات الأولية,check
+19,fire_extinguishers,Fire Extinguishers,طفايات الحريق,check
+20,jack_tools_triangle,"Jack, Tools, Tringle",الرافعة والأدوات ومثلث التحذير,check
+21,vehicle_registration,Vehicle registration papers,أوراق تسجيل المركبة,check
+22,ladder_condition,Ladder condition,حالة السلم,check
+23,ivms,IVMS,نظام مراقبة المركبة IVMS,check
+24,housekeeping,Housekeeping,نظافة المركبة وترتيبها,check
+25,walkaround_360,360 degree Walk around,فحص محيط المركبة بزاوية 360 درجة,check
+26,ras_sticker_opal,RAS Sticker OPAL,ملصق الفحص RAS الخاص بأوبال,check
+27,mandatory_training_cards,Driver's Mandatory Training Cards,بطاقات التدريب الإلزامي للسائق,check
+28,driver_name,Driver Name,اسم السائق,text
+29,driver_signature,Driver Signature,توقيع السائق,signature
+30,driver_rop_expiry,Driver's ROP EXP Date,تاريخ انتهاء رخصة القيادة,date
+31,supervisor_signature,Supervisor / PA Signature,توقيع المشرف أو PA,signature
+32,defects,Date / Defect Description / Action Taken,سجل الأعطال والإجراء المتخذ,defect_log
